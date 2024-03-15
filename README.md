@@ -94,3 +94,5 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 </table>
 
 ## Related Projects
+
+- [eslint-config](https://github.com/technologiestiftung/eslint-config) - Sharable eslint config for the @technologiestiftung organization
