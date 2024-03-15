@@ -6,60 +6,41 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# {repo-template}
+# Prettier Config for @technologiestiftung
 
-## TODO (after you generated the repo)
-
-- [ ] Review the content of the README.md and adjust to your liking
-- [ ] Read the README.md till the end and adjust the content licensing,
-      logos, etc (I know you stopped at tbd...)
-- [ ] Adjust the file [.github/CODEOWNERS](./.github/CODEOWNERS)
-- [ ] Adjust the files under [.github/ISSUE_TEMPLATE](./.github/ISSUE_TEMPLATE)
-- [ ] If you use staging and main branches use this template for [.github/renovate.json](./.github/renovate.json)
-
-```json
-{
-	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["github>technologiestiftung/renovate-config"],
-	"baseBranches": ["staging"]
-}
-```
-
-- [ ] Do you want to honor all kinds of contributions? Use [all-contributors](https://allcontributors.org/)
-
-```bash
-npx all-contributors-cli check
-npx all-contributors-cli add ff6347 doc
-```
-
-You can use it on GitHub just by commenting on PRs and issues:
-
-```plain
-@all-contributors please add @ff6347 for infrastructure, tests and code
-```
-
-- [ ] Add your project description
-- [ ] Get fancy shields at https://shields.io
+This is a sharable prettier config for the @technologiestiftung organization.
 
 ## Prerequisites
 
-tbd...
+- Node.js
+- prettier
 
 ## Installation
 
-tbd...
+```bash
+npm install @technologiestiftung/prettier-config --save-dev
+```
 
-## Usage or Deployment
+## Usage
 
-tbd...
+In your `prettier.config.js` file, add the following:
+
+```javascript
+import technologiestiftung from "@technologiestiftung/prettier-config";
+
+export default {
+	...technologiestiftung,
+	// your rules here
+};
+```
 
 ## Development
 
-tbd...
+Edit the `index.js` file.
 
 ## Tests
 
-tbd...
+npm run test
 
 ## Contributing
 
@@ -83,12 +64,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-## Content Licensing
-
-Texts and content available as [CC BY](https://creativecommons.org/licenses/by/3.0/de/).
-
-Illustrations by {MARIA_MUSTERFRAU}, all rights reserved.
 
 ## Credits
 
