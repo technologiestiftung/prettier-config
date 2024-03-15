@@ -14,7 +14,6 @@ jobs:
         with:
           node-version-file: ".nvmrc"
       - run: npm ci
-      - run: npm run prettier:ci
       - run: npm run test  --if-present
   release:
     needs: [test]

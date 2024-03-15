@@ -4,11 +4,7 @@
 	"type": "module",
 	"description": "Shared prettier configuration for Technologiestiftung Berlin",
 	"main": "index.js",
-	"files": [
-		"index.js",
-		"LICENSE",
-		"README.md"
-	],
+	"files": ["index.js", "LICENSE", "README.md"],
 	"scripts": {
 		"test": "prettier --check ./test/sample.js"
 	},
