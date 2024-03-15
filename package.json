@@ -4,7 +4,11 @@
 	"type": "module",
 	"description": "Shared prettier configuration for Technologiestiftung Berlin",
 	"main": "index.js",
-	"files": ["index.js", "LICENSE", "README.md"],
+	"files": [
+		"index.js",
+		"LICENSE",
+		"README.md"
+	],
 	"scripts": {
 		"test": "prettier --check ./test/sample.js"
 	},
@@ -12,6 +16,8 @@
 	"author": "ff6347 <hash@ff6347.email>",
 	"license": "MIT",
 	"devDependencies": {
-		"prettier": "3.2.5"
+		"@technologiestiftung/semantic-release-config": "1.2.4",
+		"prettier": "3.2.5",
+		"semantic-release": "23.0.3"
 	}
 }
