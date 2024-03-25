@@ -18,6 +18,6 @@
 	"devDependencies": {
 		"@technologiestiftung/semantic-release-config": "1.2.4",
 		"prettier": "3.2.5",
-		"semantic-release": "23.0.3"
+		"semantic-release": "23.0.6"
 	}
 }
